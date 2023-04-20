@@ -1,19 +1,85 @@
 {
    "marcas":  [
-            {"nome":"Eudora", "linha": 
+            {"nome":"Eudora", "linhas": 
                   [
-                    {"nome":"Soul", url_imagem:"https://imagem.jpg",
+                    {"nome":"Soul", "url_imagem":"https://imagem.jpg",
                        "tonalidades": [
                         {"id":"29686", "cor":"#ffffff"} ,
-                        {"id":"29686", "cor":"#ffffff"} 
+                        {"id":"29690", "cor":"#ffffff"} ,
+                        {"id":"29687", "cor":"#ffffff"} ,
+                        {"id":"26787", "cor":"#ffffff"} ,
+                        {"id":"26788", "cor":"#ffffff"} 
+                        ]}
+                  ]},
+
+
+
+            {"nome":"Bruna Tavares", "linhas": 
+                  [
+                    {"nome":"BT SKIN", "url_imagem":"https://brunatavares.vtexassets.com/arquivos/ids/156424-1200-auto?v=1768348733&width=1200&height=auto&aspect=true",
+                       "tonalidades": [
+                        {"id":"F10", "cor":"#fef3e9"} ,
+                        {"id":"F40", "cor":"#fae3bb"} ,
+                        {"id":"L10", "cor":"#f1cca8"} ,
+                        {"id":"L40", "cor":"#efb578"} ,
+                        {"id":"M10", "cor":"#ce986b"} ,
+                        {"id":"M40", "cor":"#be7146"} ,
+                        {"id":"T10", "cor":"#a86642"} ,
+                        {"id":"T40", "cor":"#914307"} ,
+                        {"id":"D10", "cor":"#78381f"} ,
+                        {"id":"D40", "cor":"#491c0e"}   
+                    ] }
+                  ]},
+
+
+                  
+            {"nome":"MAC", "linhas": 
+                  [
+                   {"nome":"Base Fluída Studio", "url_imagem":"https://sdcdn.io/mac/br/mac_sku_M6JC01_1x1_0.png?width=1080&height=1080",
+                      "tonalidades": [
+                        {"id":"NC15", "cor":"#e0B48F"} ,
+                        {"id":"NC40", "cor":"#8f552d"} ,
+                        {"id":"NW15", "cor":"#e6b393"} ,
+                        {"id":"NW40", "cor":"#dca77d"} ,
+                        {"id":"NW50", "cor":"#ab6541"} ,
+                         
+                    ] }
+                  ]},
+
+
+            
+            {"nome":"Mary Kay", "linhas": 
+                  [
+                    {"nome":"timewise", "url_imagem":"https://pimg.amr.marykaycdn.com/Hero/10000/795510-UNL-GB-045-Soldier-TW3D-Foundation-Matte-IvoryC110.png",
+                      "tonalidades": [
+                        {"id":"C220", "cor":"#dba782"} ,
+                        {"id":"W180", "cor":"#be9165"} ,
+                        {"id":"N160", "cor":"#c99b81"} ,
+                        {"id":"C170", "cor":"#6c4225"} ,
+                        {"id":"W130", "cor":"#dab794"} ,
                         
                     ] }
-                  ]
-            }
-
+                  ]},
     ]
 }
+            {"nome":"Fenty Beauty", "linhas": 
+                 [
+                   {"nome":"Feels", "url_imagem":"https://cdn.shopify.com/s/files/1/0341/3458/9485/products/FB31006_FB0420_alt1_600x.jpg?v=1660160088",
+                      "tonalidades": [
+                        {"id":"110", "cor":"#fdd1b0"} ,
+                        {"id":"130", "cor":"#ebc08c"} ,
+                        {"id":"200", "cor":"#E3AC7F"} ,
+                        {"id":"240", "cor":"#d3a076"} ,
+                        {"id":"260", "cor":"#d6a07b"} ,
+                        {"id":"320", "cor":"#cd8e63"} ,
+                        {"id":"350", "cor":"#b77b45"} ,
+                        {"id":"380", "cor":"#c6845d"} ,
+                        {"id":"430", "cor":"#78381f"} ,
+                        {"id":"440", "cor":"#491c0e"}   
+                        {"id":"450", "cor":"#491c0e"}
 
+                    ] }
+                  ]},
          
         
    
