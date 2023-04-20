@@ -1,0 +1,22 @@
+{
+   "marcas":  [
+            {"nome":"Eudora", "tonalidades": 
+                  [
+                    {"id":"29686", "significado":"Bege Claro 1", "cor":"0x0000"},
+                    {"id":"29686", "significado":"Bege Claro 1", "cor":"0x0000"}
+                   ]
+            },
+
+            {"nome":"MAC", "tonalidades": 
+              [
+                {"id":"29686", "significado":"Bege Claro 1", "cor":"0x0000"},
+                {"id":"29686", "significado":"Bege Claro 1", "cor":"0x0000"}
+               ]
+            }
+    ]
+}
+
+         
+        
+   
+
