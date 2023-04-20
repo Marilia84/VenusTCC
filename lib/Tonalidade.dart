@@ -1,5 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 
 class TonalidadeWidget extends StatefulWidget {
   const TonalidadeWidget({super.key});
@@ -46,7 +47,11 @@ class _TonalidadeWidgetState extends State<TonalidadeWidget> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () async {
+                          final ImagePicker picker = ImagePicker();
+                          final XFile? photo = await picker.pickImage(
+                              source: ImageSource.camera);
+                        },
                         child: Row(
                           children: [
                             Icon(
