@@ -1,18 +1,16 @@
 {
    "marcas":  [
-            {"nome":"Eudora", "tonalidades": 
+            {"nome":"Eudora", "linha": 
                   [
-                    {"id":"29686", "significado":"Bege Claro 1", "cor":"0x0000"},
-                    {"id":"29686", "significado":"Bege Claro 1", "cor":"0x0000"}
-                   ]
-            },
-
-            {"nome":"MAC", "tonalidades": 
-              [
-                {"id":"29686", "significado":"Bege Claro 1", "cor":"0x0000"},
-                {"id":"29686", "significado":"Bege Claro 1", "cor":"0x0000"}
-               ]
+                    {"nome":"Soul", url_imagem:"https://imagem.jpg",
+                       "tonalidades": [
+                        {"id":"29686", "cor":"#ffffff"} ,
+                        {"id":"29686", "cor":"#ffffff"} 
+                        
+                    ] }
+                  ]
             }
+
     ]
 }
 
