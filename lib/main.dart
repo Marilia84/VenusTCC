@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:venus/Catalogo.dart';
+import 'package:venus/catalogo.dart';
 
 void main() => runApp(const MyApp());
 

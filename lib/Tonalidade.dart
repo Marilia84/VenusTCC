@@ -1,6 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:venus/cor_foto.dart';
 
 class TonalidadeWidget extends StatefulWidget {
   const TonalidadeWidget({super.key});
@@ -24,12 +25,12 @@ class _TonalidadeWidgetState extends State<TonalidadeWidget> {
                 style: const TextStyle(
                   fontSize: 30.0,
                   fontFamily: 'Agne',
+                  color: Colors.black
                 ),
                 child: AnimatedTextKit(
                   isRepeatingAnimation: false,
                   animatedTexts: [
                     TypewriterAnimatedText('Para te ajudar'),
-                    TypewriterAnimatedText('Preciso lhe conhecer melhor'),
                     TypewriterAnimatedText('Posso tirar um foto sua?'),
                   ],
                   onFinished: () => setState(() {
@@ -51,11 +52,14 @@ class _TonalidadeWidgetState extends State<TonalidadeWidget> {
                           final ImagePicker picker = ImagePicker();
                           final XFile? photo = await picker.pickImage(
                               source: ImageSource.camera);
+                              if (photo!=null) {
+                                Navigator.of(context).push(MaterialPageRoute(builder: (context) => CorFoto(foto: photo.path)));
+                              }
                         },
                         child: Row(
                           children: [
                             Icon(
-                              Icons.check,
+                              Icons.camera_alt,
                               color: Colors.green,
                             ),
                             Text("Tudo bem."),

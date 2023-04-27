@@ -1,6 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:venus/Tonalidade.dart';
+import 'package:venus/tonalidade.dart';
 
 class CatalogoWidget extends StatefulWidget {
   const CatalogoWidget({super.key});
@@ -24,13 +24,14 @@ class _CatalogoWidgetState extends State<CatalogoWidget> {
                 style: const TextStyle(
                   fontSize: 30.0,
                   fontFamily: 'Agne',
+                  color: Colors.black
                 ),
                 child: AnimatedTextKit(
                   isRepeatingAnimation: false,
                   animatedTexts: [
                     TypewriterAnimatedText('Olá'),
                     TypewriterAnimatedText(
-                        'Estou muito feliz de te ver por aqui.'),
+                        'Estou muito feliz de ver você por aqui.'),
                     TypewriterAnimatedText(
                         'Posso lhe ajudar a escolher uma base para o seu rosto?'),
                   ],

@@ -4,11 +4,11 @@
                   [
                     {"nome":"Soul", "url_imagem":"https://imagem.jpg",
                        "tonalidades": [
-                        {"id":"29686", "cor":"#ffffff"} ,
-                        {"id":"29690", "cor":"#ffffff"} ,
-                        {"id":"29687", "cor":"#ffffff"} ,
-                        {"id":"26787", "cor":"#ffffff"} ,
-                        {"id":"26788", "cor":"#ffffff"} 
+                        {"id":"29686", "cor":"#CCA981"} ,
+                        {"id":"29690", "cor":"#BD966F"} ,
+                        {"id":"29687", "cor":"#BE9D72"} ,
+                        {"id":"26787", "cor":"#65452C"} ,
+                        {"id":"26788", "cor":"#443123"} 
                         ]}
                   ]},
 
@@ -41,7 +41,7 @@
                         {"id":"NC40", "cor":"#8f552d"} ,
                         {"id":"NW15", "cor":"#e6b393"} ,
                         {"id":"NW40", "cor":"#dca77d"} ,
-                        {"id":"NW50", "cor":"#ab6541"} ,
+                        {"id":"NW50", "cor":"#ab6541"} 
                          
                     ] }
                   ]},
@@ -56,31 +56,45 @@
                         {"id":"W180", "cor":"#be9165"} ,
                         {"id":"N160", "cor":"#c99b81"} ,
                         {"id":"C170", "cor":"#6c4225"} ,
-                        {"id":"W130", "cor":"#dab794"} ,
+                        {"id":"W130", "cor":"#dab794"} 
                         
                     ] }
                   ]},
-    ]
-}
-            {"nome":"Fenty Beauty", "linhas": 
-                 [
-                   {"nome":"Feels", "url_imagem":"https://cdn.shopify.com/s/files/1/0341/3458/9485/products/FB31006_FB0420_alt1_600x.jpg?v=1660160088",
-                      "tonalidades": [
-                        {"id":"110", "cor":"#fdd1b0"} ,
-                        {"id":"130", "cor":"#ebc08c"} ,
-                        {"id":"200", "cor":"#E3AC7F"} ,
-                        {"id":"240", "cor":"#d3a076"} ,
-                        {"id":"260", "cor":"#d6a07b"} ,
-                        {"id":"320", "cor":"#cd8e63"} ,
-                        {"id":"350", "cor":"#b77b45"} ,
-                        {"id":"380", "cor":"#c6845d"} ,
-                        {"id":"430", "cor":"#78381f"} ,
-                        {"id":"440", "cor":"#491c0e"}   
-                        {"id":"450", "cor":"#491c0e"}
+       {"nome":"Fenty Beauty", "linhas": 
+              [
+                {"nome":"Bestseller", "url_imagem":"https://cdn.shopify.com/s/files/1/0341/3458/9485/products/FB31006_FB0420_alt1_600x.jpg?v=1660160088",
+                  "tonalidades": [
+                    {"id":"110", "cor":"#fdd1b0"} ,
+                    {"id":"130", "cor":"#ebc08c"} ,
+                    {"id":"200", "cor":"#E3AC7F"} ,
+                    {"id":"240", "cor":"#d3a076"} ,
+                    {"id":"260", "cor":"#d6a07b"} ,
+                    {"id":"320", "cor":"#cd8e63"} ,
+                    {"id":"350", "cor":"#b77b45"} ,
+                    {"id":"380", "cor":"#c6845d"} ,
+                    {"id":"430", "cor":"#78381f"} ,
+                    {"id":"440", "cor":"#491c0e"} , 
+                    {"id":"450", "cor":"#491c0e"}
 
                     ] }
                   ]},
+          
+                  
+        {"nome":"Ruby Rose", "linhas": 
+              [
+                {"nome":"Feels", "url_imagem":"https://static.cdnlive.com.br/uploads/724/produto/16552980897858_detalhe.jpg",
+                  "tonalidades": [
+                    {"id":"CCOO", "cor":"#e9cdc2"} ,
+                    {"id":"MC51", "cor":"#fcdec6"} ,
+                    {"id":"MC53", "cor":"#d7925e"} ,
+                    {"id":"ME100", "cor":"#d0a789"} ,
+                    {"id":"E153", "cor":"#5f3b3e"} 
+                         
+                     ] }
+                   ]}       
          
-        
+     ]
+}
+            
    
 
